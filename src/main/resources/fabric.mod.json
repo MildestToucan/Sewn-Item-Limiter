@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "sewn-item-limiter",
+	"version": "${version}",
+	"name": "Sewn Item Limiter",
+	"description": "Fabric mod for 1.21.1 that prevents players from holding ",
+	"authors": [
+		"GauntRecluse"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/sewn-item-limiter/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.gauntrecluse.sewn_item_limiter.SewnItemLimiter"
+		]
+	},
+	"mixins": [
+		"sewn-item-limiter.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

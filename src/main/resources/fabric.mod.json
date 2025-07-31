@@ -3,27 +3,27 @@
 	"id": "sewn-item-limiter",
 	"version": "${version}",
 	"name": "Sewn Item Limiter",
-	"description": "Fabric mod for 1.21.1 that prevents players from holding ",
+	"description": "Fabric mod that allows adding custom conditions for picking up items.",
 	"authors": [
 		"GauntRecluse"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/MildestToucan/Sewn-Item-Limiter"
 	},
 	"license": "MIT",
-	"icon": "assets/sewn-item-limiter/icon.png",
+	"icon": "assets/resewn_pockets/resewn_pockets_lol.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.gauntrecluse.sewn_item_limiter.SewnItemLimiter"
+			"net.gauntrecluse.resewn_pockets.ResewnPockets"
 		]
 	},
 	"mixins": [
-		"sewn-item-limiter.mixins.json"
+		"resewn_pockets.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.14",
+		"fabricloader": ">=0.17.0",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*"

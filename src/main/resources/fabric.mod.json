@@ -23,7 +23,7 @@
 		"resewn_pockets.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.17.0",
+		"fabricloader": ">=0.16.4",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*"

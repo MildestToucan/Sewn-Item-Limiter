@@ -25,13 +25,22 @@ Config + External Mixins -Custom Logic-> ResewnPockets -> Mixins -> Minecraft Va
 Currently, the config system is in development, and so is the rest of the mod. It is, as such, unavailable for download or installation.  
 As such, the following are the _planned_ installation methods, but are _subject_ to change.  
 
+### Compatibility notice!!  
+Resewn Pockets tries to be as compatible as it can with other mods, trying to avoid overwriting vanilla behavior or changing it
+so much that incompatibilities arise. However, as with any mod that uses Mixins, there is a risk of incompatibility.  
+If you encounter a compatibility error with an otherwise proper set-up, it is recommended to try and use mods such as
+[Mixin Conflict Helper](https://modrinth.com/mod/mixin-conflict-helper) to figure out if there is a conflicting Mixin and with which mod.  
+If you believe it to be a conflict that I could fix, or you want my opinion on it, open an issue on this mod before you
+make one with the conflicting mod.
+
 ### Installation and setup:  
 This mod will not do anything on its own. You must first launch the server/client with it in your mods folder for it to generate its config file.  
 The guide to configuring the mod for the supported config logic can be found in the Wiki(WIP).  
 
 ### If the config isn't enough:  
-This mod has intended support for other mods modifying its contents to add their own logic. Target ResewnPockets' class and make sure your mixin is
-of a priority value above 500. This way, ResewnPockets's Mixins will be loaded _after_ yours have taken effect.  
+This mod has intended support for other mods modifying its contents to add their own logic.  
+You should target the SewingPatterns class; as Mixins are applied as the game loads, it should be able
+
 From there, assuming no conflicts with another mod's mixins, issues are the results of bugs or me messing up, or from the external dev making their Mixin wrong.  
 If in doubt about the source of the issue when trying to use mixins to modify this mod, open a GitHub issue.  
 

@@ -8,10 +8,9 @@
 		"GauntRecluse"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/MildestToucan/Sewn-Item-Limiter"
 	},
-	"license": "MIT",
+	"license": "GNU LGPL v2.1",
 	"icon": "assets/resewn_pockets/resewn_pockets_lol.png",
 	"environment": "*",
 	"entrypoints": {

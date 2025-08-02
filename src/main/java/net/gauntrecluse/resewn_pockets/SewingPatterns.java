@@ -1,6 +1,5 @@
-package net.gauntrecluse.resewn_pockets.util;
+package net.gauntrecluse.resewn_pockets;
 
-import net.gauntrecluse.resewn_pockets.ResewnPockets;
 import net.gauntrecluse.resewn_pockets.mixin.InventoryMixin;
 import net.gauntrecluse.resewn_pockets.mixin.ItemStackMixin;
 import net.minecraft.server.level.ServerPlayer;

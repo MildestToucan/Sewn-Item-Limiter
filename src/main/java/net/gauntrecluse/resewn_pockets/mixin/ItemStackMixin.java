@@ -2,7 +2,7 @@ package net.gauntrecluse.resewn_pockets.mixin;
 
 
 import net.fabricmc.fabric.api.item.v1.FabricItemStack;
-import net.gauntrecluse.resewn_pockets.util.SewingPatterns;
+import net.gauntrecluse.resewn_pockets.SewingPatterns;
 import net.minecraft.core.component.DataComponentHolder;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.Entity;
